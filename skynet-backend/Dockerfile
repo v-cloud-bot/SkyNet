@@ -1,5 +1,5 @@
 # Step 1: Use a lightweight Java 17 runtime (Eclipse Temurin)
-FROM eclipse-temurin:17-jdk-jammy
+FROM eclipse-temurin:25-jdk-jammy
 
 # Step 2: Set the directory inside the container where commands run
 WORKDIR /app
